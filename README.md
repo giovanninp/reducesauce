@@ -22,8 +22,8 @@ const Actions = createActions(
     RETURN:
     const Actions = {
         Creators: {
-            'users/ADD_USER': (name, age) => ...,
-            'users/UPDATE_USER_NAME': (index, name) => ...
+            addUser: (name, age) => ...,
+            updateUserName: (index, name) => ...
         },
         Types: {
             addUser: 'users/ADD_USER',
