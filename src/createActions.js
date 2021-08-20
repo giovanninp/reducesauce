@@ -23,7 +23,7 @@ const createActions = (actions = {}, prefix = "") =>
       });
 
       return {
-        Creators: { ...acc.Creators, [Type]: Creator },
+        Creators: { ...acc.Creators, [key]: Creator },
         Types: { ...acc.Types, [key]: Type },
       };
     },
