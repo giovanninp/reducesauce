@@ -6,6 +6,13 @@ Based on [reduxsauce](https://github.com/jkeam/reduxsauce)
 
 #
 
+## Installation
+``` bash
+$ yarn add reducesauce
+# or
+$ npm -i reducesauce
+```
+
 ## Usage
 
 ### `createActions`
