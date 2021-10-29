@@ -9,8 +9,6 @@ const createActions = (actions = {}, prefix = "") =>
 
       const formattedParams = getParams(params);
 
-      console.log(formattedParams);
-
       const Creator = (...props) => ({
         type: Type,
         ...formattedParams.reduce(
