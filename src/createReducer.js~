@@ -6,7 +6,7 @@ const createReducer = (initialState, dispatchers = {}) => {
   ) => {
     if (middleWare) middleWare(state, { type, payload });
 
-    return dispatchers[type] ? dispatchers[type](state, payload) : state;
+    return dispatchers[type](state, payload) ?? state;
   };
 
   return reducer;
